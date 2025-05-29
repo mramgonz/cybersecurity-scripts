@@ -1,43 +1,47 @@
-# 🛡️ Cybersecurity Scripts · Web Security Auditor
+# 🛡️ Cybersecurity Scripts
 
-![GitHub repo size](https://img.shields.io/github/repo-size/mramgonz/cybersecurity-scripts)
-![GitHub stars](https://img.shields.io/github/stars/mramgonz/cybersecurity-scripts?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/mramgonz/cybersecurity-scripts)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Repo Size](https://img.shields.io/github/repo-size/mramgonz/cybersecurity-scripts)
+![Last Commit](https://img.shields.io/github/last-commit/mramgonz/cybersecurity-scripts)
+![License](https://img.shields.io/github/license/mramgonz/cybersecurity-scripts)
+![Issues](https://img.shields.io/github/issues/mramgonz/cybersecurity-scripts)
 
-> 🐍 Auditor de seguridad web en Python para cabeceras HTTP, XSS y SQLi básicas.
+> 🧠 Colección de herramientas en Python para tareas básicas de auditoría de seguridad web, análisis de vulnerabilidades y automatización ofensiva.
 
 ---
 
-## 📚 Tabla de Contenidos
+## 🧭 Tabla de contenidos
 
-- [📚 Tabla de Contenidos](#-tabla-de-contenidos)
 - [📌 Descripción](#-descripción)
-- [🚀 Funcionalidades](#-funcionalidades)
-- [🛠️ Cómo usar](#️-cómo-usar)
+- [🧰 Herramientas incluidas](#-herramientas-incluidas)
+- [🚀 Cómo usar](#-cómo-usar)
 - [📦 Requisitos](#-requisitos)
-- [📁 Ejemplo de salida](#-ejemplo-de-salida)
-- [💡 Mejoras futuras](#-mejoras-futuras)
+- [📁 Estructura del proyecto](#-estructura-del-proyecto)
+- [💡 Ideas futuras](#-ideas-futuras)
 - [📄 Licencia](#-licencia)
 
 ---
 
 ## 📌 Descripción
 
-Este proyecto proporciona un script en Python diseñado para realizar auditorías básicas de seguridad en sitios web. Detecta cabeceras HTTP relacionadas con seguridad, y realiza pruebas automáticas de inyección XSS y SQLi.
+Este repositorio está dedicado a scripts útiles para auditar sitios web, detectar configuraciones inseguras, probar payloads básicos y automatizar análisis de seguridad de forma sencilla.  
+El objetivo es mantener herramientas simples, portables y educativas para pentesters, desarrolladores y estudiantes.
 
 ---
 
-## 🚀 Funcionalidades
+## 🧰 Herramientas incluidas
 
-- 🔍 Escaneo de cabeceras HTTP críticas
-- 🚨 Pruebas automáticas con payloads comunes de XSS y SQLi
-- 📤 Resultados exportados a archivo `.txt` por dominio
-- ✅ Validación de URLs antes de escanear
+| Carpeta             | Descripción breve |
+|---------------------|-------------------|
+| `web_auditor/`      | Escaneo de cabeceras HTTP y pruebas de inyección XSS/SQLi |
+| `port_scanner/`     | (Próximamente) Escáner básico de puertos con sockets |
+| `subdomain_finder/` | (Planeado) Descubrimiento de subdominios usando diccionario |
+
+> 🔧 Cada carpeta incluye su propio `README.md` detallado.
 
 ---
 
-## 🛠️ Cómo usar
+## 🚀 Cómo usar
 
 ```bash
-python web_security_auditor.py
+cd NOMBRE_DEL_SCRIPT
+python script.py
